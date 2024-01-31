@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		
+		*{ margin:0; padding:0; font-family: 'Rubik',sans-serif;}
+		header{
+			width: 100;
+			height: 100;
+			background-image: linear-gradient( to top ,#fff 80%,#10c1e5 20%)
+		}
+		.navsection{  
+			width: 100; height: 20vh; background-color: yellow;
+			display: flex; justify-content: space-around;
+			align-items: center;
+			background-image: linear-gradient(to top,#fff 80%,#10afcf 20%);
+		}
+		.logo{
+			width: 40;
+			color: black;
+			font-size: large;
+			padding-left: 100px;
+			box-sizing: border-box;
+		}
+		
+		.logo h1{
+			text-transform: uppercase;
+			font-size: 1.8rem;
+			color: rgb(123, 15, 218);
+			animation: aagepiche 2s linear infinite;
+			animation-direction: alternate;
+		}
+		nav{
+			width: 60%;
+			display: flex;
+			justify-content: space-around;
+		}
+		nav a{
+			text-decoration: none;
+			color: #000;
+			font-weight: 900;
+			font-size: 17px;
+			position: relative;
+		}
+		nav a:first-child{
+			color: #4458dc;
+		}
+
+		nav a:before{
+			content: "";
+			position: absolute;
+			top: 110%;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			border-bottom: 2px solid #4458dc;
+			transform: all 0.4s linear;
+		}
+		nav a:hover:before{
+			width: 100%;
+		}
+		main{
+			height: 80vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+	
+		.rightside img{
+			width: 250px;
+			border-radius: 5%;
+			border: 4px solid rgb(86, 40, 166);
+
+		}
+
+		.leftside{
+			color: #000;
+		}
+		
+		.leftside h3{
+			font-size: 40px;
+			margin-bottom: 20px;
+			position: relative;
+		}
+		.leftside h2{
+			margin-bottom: 20px;
+			font-weight: 20px;
+		
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dimpal website create</title>
+</head>
+<body>
+	<header>
+		<section class="navsection">
+			<div class="logo">
+				<h1><img src="Portfolio-header.webp" height="70"width="350"></div></h1>
+			</div>
+			<nav>
+				<a href="#">Home</a>
+				<a href="file:///C:/Users/DIMPAL/OneDrive/Desktop/my%20all%20program/dim1.html" target="_blank">About</a>
+				<a href="https://www.youtube.com/watch?v=LZ-Qn4q3sbU">Service</a>
+				<a href="flipkartproject.html">My Project</a>
+				<a href="file:///C:/Users/DIMPAL/OneDrive/Desktop/my%20all%20program/video.html">Contact Us</a>
+			</nav>
+		</section>
+		<main>
+			<div class="leftside">
+				<h3> Hello..... </h3>
+				<h2> I am Rajkanya chaudhary </h2>
+				<h2>Speciality:- Website Development</h2>
+				<h2>Skills:-  Java Full Stack Developer</h2>
+				<h2>Email:- dc506878@gmail.com</h2>
+			</div>
+			<div class="rightside">
+				<img src="hjkkl.jpg"></div>
+				
+
+		</main>
+	</header>
+
+</body>
+</html>
